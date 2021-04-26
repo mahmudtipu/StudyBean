@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/questionImageId"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:visibility="gone"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/questionTextId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="#2196F3"
+                android:textColor="#ffffff"
+                android:padding="20dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+
+            <Button
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:id="@+id/btnAnswerA"
+                android:layout_width="0dp"
+                android:background="@color/white"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Answer A"/>
+
+            <Button
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:id="@+id/btnAnswerB"
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:padding="5dp"
+                android:textSize="18sp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:text="Answer B"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:textAllCaps="false"
+                android:background="@color/white"
+                android:id="@+id/btnAnswerC"
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:text="Answer C"/>
+
+            <Button
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:id="@+id/btnAnswerD"
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="18sp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:text="Answer D"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/desId"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

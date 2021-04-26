@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Studybean Lite</string>
+    <string name="for_pass">Forget password? Click here</string>
+    <string name="privacy_policy">Review our Privacy Policy</string>
+    <string name="next">Next Question--></string>
+    <string name="facebook_app_id">1179809208855260</string>
+    <string name="fb_login_protocol_scheme">fb1179809208855260</string>
+</resources>

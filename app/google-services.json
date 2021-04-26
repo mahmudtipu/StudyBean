@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "64900168910",
+    "project_id": "studybean-lite",
+    "storage_bucket": "studybean-lite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64900168910:android:1528a880f0acf2de13649f",
+        "android_client_info": {
+          "package_name": "com.studybean.studybeanliteapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64900168910-4rur7s90gr2di9noulb9jo62t4bm8gjd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.studybean.studybeanliteapp",
+            "certificate_hash": "ed09d006e45b2248c27bf7463a19e9efaffae93e"
+          }
+        },
+        {
+          "client_id": "64900168910-klg245t7chqg1bacndnoj9b8ar7eg45o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsdvxqOM-G06m0QneReolFJjXpdJVna5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64900168910-klg245t7chqg1bacndnoj9b8ar7eg45o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
